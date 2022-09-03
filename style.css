@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Outfit:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Manrope;
+}
+
+body {
+    display: flex column;    
+}
+
+.center{
+    justify-content: space-around;
+    max-width: 70%;
+    margin-left: 15vw;
+    max-height: 75vh;
+
+}
+
+.top-box{
+    background-color: hsl(10, 79%, 65%);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
+
+.main-box{
+    background-color: hsl(33, 100%, 98%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    max-width: 1440px;
+    border-radius: 5% 5% 0% 0%;
+    
+}
+
+#myChart{
+    max-width: 1440px;
+}
+
+.month{
+    background-color: hsl(33, 100%, 98%);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 0% 0% 5% 5%;
+}
+
+.from-last-month{
+    border-radius: 5px;
+}
